@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+    <link rel="icon" href="favicon.ico" type="image/ico" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    
+    <link rel="stylesheet" type="text/css" href="css/meanmenu.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <script src="js/libs/modernizr.custom.js"></script>
+    <title>Executive Committee</title>
+    <style>
+ 
+
+.responsive-cell-block {
+  min-height: 75px;
+}
+
+.text-blk {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  line-height: 25px;
+}
+
+.responsive-container-block {
+  min-height: 75px;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  justify-content: space-evenly;
+}
+
+.team-head-text {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.team-head-text {
+  line-height: 50px;
+  width: 100%;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+}
+
+.container-team {
+  max-width: 1380px;
+  margin-top: 60px;
+  margin-right: auto;
+  margin-bottom: 60px;
+  margin-left: auto;
+  padding-top: 0px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  padding-left: 30px;
+}
+
+.card {
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 4px 20px 7px;
+  display: flex;
+  
+  align-items: center;
+  padding-top: 30px;
+  padding-right: 25px;
+  padding-bottom: 30px;
+  padding-left: 25px;
+}
+
+.card-container {
+  width: 285px;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+  margin-left: 10px;
+  flex-wrap: wrap;
+}
+
+.name {
+  margin-top: 0px;
+  margin-right: -80px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  font-size: 18px;
+  color:black;
+  font-weight: 800;
+}
+
+.position {
+  margin-top: 50px;
+  margin-right: 0px;
+  margin-bottom: 10px;
+  margin-left: -75px;
+}
+
+.feature-text {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: -40px;
+  margin-left: 0px;
+  color:#88211a;
+  line-height: 30px;
+}
+
+.social-icons {
+  width: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-image-wrapper {
+ 
+  width: 100px;
+  height: 100px;
+}
+
+.team-member-image {
+  max-width: 100px;
+}
+
+@media (max-width: 500px) {
+  .card-container {
+    width: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+  }
+}
+    </style>
+</head>
+<body>
+
+
+<div class="main-wrapper page">
+<?php
+include("header.php");
+?>
+<div class="content-wrapper">
+    <div class="responsive-container-block container-team">
+    <h2 class="heading-regular text-center text-uppercase" style="color:#88211A;">Executive Committee</h2>
+    <div class="divider divider--lg"></div>
+  <div class="responsive-container-block">
+    
+    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+      <div class="card">
+        <div class="team-image-wrapper">
+        
+          <img class="team-member-image" style='border-radius:50%;' src="./images/team/executive/ravi.jpg">
+          <br>PRESIDENT         
+        </div>
+        <p class="text-blk name " style="margin-left:0px;">
+            Ravi Sankar<br> Veeramachaneni<br>Co-founder<br>
+            1989 ECE
+        </p>
+      </div>
+    </div>
+    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+      <div class="card">
+        <div class="team-image-wrapper">
+          <img class="team-member-image" src="./images/profile_boy.png">
+          <br>VICE PRESIDENT
+        </div>
+        <p class="text-blk name ">
+            Sainadh Chekuri<br>
+            1985 MECH
+        </p>
+      </div>
+    </div>
+   <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+      <div class="card">
+        <div class="team-image-wrapper">
+          <img class="team-member-image" src="./images/profile_girl.png">
+<br>VICE PRESIDENT         
+        </div>
+       
+        <p class="text-blk name ">
+            Praveena <br>Killamsetti <br>2003 CSE
+        </p>
+      </div>
+    </div>
+    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+      <div class="card">
+        <div class="team-image-wrapper">
+          <img class="team-member-image" src="./images/profile_girl.png">
+          <br>SECRETARY          
+        </div>
+        <p class="text-blk name ">
+            Srujana Koripalli<br>
+            2013 CSE
+        </p>        
+      </div>
+    </div>
+    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+      <div class="card">
+        <div class="team-image-wrapper">
+          <img class="team-member-image" src="./images/profile_girl.png">
+          <br>JOINT SECRETARY
+        </div>
+        <p class="text-blk name ">
+            Bhavani<br>Emani<br>
+            2004 CIVIL
+        </p>
+      </div>
+    </div>
+    <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 card-container">
+      <div class="card">
+        <div class="team-image-wrapper">
+          <img class="team-member-image" src="./images/profile_boy.png">
+          <br>TREASURER          
+        </div>
+        
+        <p class="text-blk name ">
+            Swamy Madhira<br>
+            2001 ECE
+        </p>
+        
+      </div>
+    </div>
+   
+        
+   
+  </div>
+</div>
+</div>
+
+<?php
+include("footer.php");
+?>
+</div>
+<script src="js/libs/jquery-2.2.4.min.js"></script>
+<script src="js/libs/bootstrap.min.js"></script>
+<script src="js/libs/owl.carousel.min.js"></script>
+<script src="js/libs/jquery.meanmenu.js"></script>
+<script src="js/libs/parallax.min.js"></script>
+<script src="js/libs/jquery.waypoints.min.js"></script>
+<script src="js/custom/main.js"></script>
+</body>
+</html>

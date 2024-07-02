@@ -1,0 +1,27 @@
+.container{
+    padding: 20px;
+}
+h1{
+    color: #7a7a7a;
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.panel{
+    width: 350px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+.panel-heading{
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.panel> .panel-heading{
+    color:#333;
+    background-color: #f5f5f5;
+    border-color: #ddd;
+}

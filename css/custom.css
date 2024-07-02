@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .main-container {
+    padding: 3% 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 70%;
+    margin-top: 10%;
+    margin-bottom: 5%;
+  }
+  
+  .info-container {
+    margin: 15px;
+    padding: 2% 4%;
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: 14px;
+    border-radius: 10px;
+    width: 70%;
+    color: black;
+    line-height: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+  }
+  
+  .membership-fee {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+
+    color: darkslategray;
+    font-size: 2vw;
+    margin-top: 20px;
+  }
+
+  .text {
+    /* font-family: 'Poppins',sans-serif;
+    font-weight:600;
+    color:darkslategray;
+    font-size:2vw; */
+    margin-top:20px;
+  }
+  
+  #paypal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 10%;
+  }
+  
+  #paypal-button-container {
+    max-width: 300px;
+    /* Adjust the width as needed */
+  }
+  
